@@ -85,14 +85,14 @@
     #print-view, #print-view * { visibility: visible !important; }
     #print-view { display: flex !important; position: absolute; top: 0; left: 0; width: 100%; }
     canvas { display: none !important; visibility: hidden !important; }
-    #print-view { display: flex !important; flex-direction: column; height: 277mm; font-family: 'Tajawal', sans-serif; direction: rtl; font-size: 8.5pt; color: #222; padding: 0; margin: 0; background: white; width: 100%; overflow: hidden; }
-    #print-view table { width: 100%; border-collapse: collapse; margin-bottom: 4px; }
-    #print-view td { border: 1px solid #bbb; padding: 3px 5px; vertical-align: middle; line-height: 1.3; }
+    #print-view { display: flex !important; flex-direction: column; height: 277mm; font-family: 'Tajawal', sans-serif; direction: rtl; font-size: 10pt; color: #222; padding: 0; margin: 0; background: white; width: 100%; overflow: hidden; }
+    #print-view table { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+    #print-view td { border: 1px solid #bbb; padding: 7px 8px; vertical-align: middle; line-height: 1.5; }
     #print-view .pt { background: #3d3d2e; color: white; text-align: center; font-weight: 700; padding: 4px; font-size: 8.5pt; margin-bottom: 0; }
     #print-view .lbl { background: #f4f4ec; color: #6b6635; font-weight: 700; white-space: nowrap; font-size: 8pt; }
     #print-view .sig-cell { height: 28px !important; max-height: 28px !important; overflow: hidden; text-align: center; background: white; padding: 1px !important; }
     #print-view .sig-cell img { height: 24px !important; max-height: 24px !important; width: auto; max-width: 100%; object-fit: contain; mix-blend-mode: multiply; display: block; margin: 0 auto; }
-    #print-view .pledge { background: #f5f4ea; border: 1px solid #c8a94b; padding: 4px 8px; text-align: center; font-weight: 700; font-size: 8pt; margin: 3px 0; }
+    #print-view .pledge { background: #f5f4ea; border: 1px solid #c8a94b; padding: 8px 12px; text-align: center; font-weight: 700; font-size: 10pt; margin: 6px 0; }
   }
 </style>
 </head>
@@ -463,9 +463,9 @@
 
     var out = '';
     out += '<div style="display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #c8a94b;padding:4px 6px;margin-bottom:5px;background:white;">';
-    out += '<img src="' + uaeImg + '" style="height:42px;width:auto;object-fit:contain;background:white;">';
+    out += '<img src="' + uaeImg + '" style="height:55px;width:auto;object-fit:contain;background:white;">';
     out += '<div style="flex:1;text-align:center;font-size:12pt;font-weight:800;color:#6b6635;text-decoration:underline;text-decoration-color:#c8a94b;">طلب إجازة دورية 2026</div>';
-    out += '<img src="' + awqafImg + '" style="height:32px;width:auto;object-fit:contain;background:white;">';
+    out += '<img src="' + awqafImg + '" style="height:42px;width:auto;object-fit:contain;background:white;">';
     out += '</div>';
 
     out += '<div style="border:1px solid #ddd;border-radius:4px;padding:4px 8px;margin-bottom:5px;font-size:8.5pt;line-height:1.7;">';
